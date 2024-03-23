@@ -1,7 +1,7 @@
 import requests
 
 url = 'https://api.pokemonbattle.me/v2'
-headers_pokemons = {'trainer_token': 'd0389a404899bfab290662aff7dc3f9e'}
+headers_pokemons = {'trainer_token': '                 '}
 
 
 def create_pokemons_func():
