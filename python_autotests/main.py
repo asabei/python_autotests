@@ -1,6 +1,6 @@
 import requests
 url='https://api.pokemonbattle.me/v2'
-headers_pokemons={'trainer_token':'d0389a404899bfab290662aff7dc3f9e'}
+headers_pokemons={'trainer_token':'             '}
 create_pokemon=requests.post(f'{url}/pokemons', headers=headers_pokemons, json={'name': 'generate', 'photo': 'generate'} )
 print(create_pokemon.json())
 dict_create_pokemon=create_pokemon.json()
